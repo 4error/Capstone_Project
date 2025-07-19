@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+# alternate error fix
 from bcc import BPF
 import time
 import pwd

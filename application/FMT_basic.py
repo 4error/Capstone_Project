@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+
+# Modular filtering, caching, and signal handling
+# Multiple syscall coverage (open, write, close, rename, unlink, creat, mkdir)
+# UID-to-username caching
+# Interactive command mode with filtering
+# In-memory buffer for post-filtering
+# Ubuntu kernel version detection with resilient kprobe attachment
 from bcc import BPF
 import time
 import pwd
